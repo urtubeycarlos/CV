@@ -6,9 +6,6 @@ const Skills = (props) => {
       {props.skills.map((skll) =>
         <div className='item w33' key={skll.name}>
           <h3>{skll.name}</h3>
-          {/* <div className='skills'>
-            <span style={{width: skll.percentage}}></span>
-          </div> */}
         </div>
       )}
     </div>
