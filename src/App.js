@@ -10,7 +10,7 @@ class App extends Component {
     const person = {
       avatar: './assets/foto.jpeg',
       name: 'Carlos Urtubey',
-      profession: 'BackEnd Developer',
+      profession: 'Full-Stack Developer',
       bio: 'Programador políglota, aspirante a Project Manager. Entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕.',
       address: 'San Miguel, Buenos Aires, Argentina.',
       social: [
