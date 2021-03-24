@@ -22,8 +22,8 @@ class App extends Component {
         {jobTitle: 'Consultor CX', company: 'Oracle Argentina/Tecnosoftware', contact:"moviedo@tecnosoftware.com", startDate: 'Enero 2019', endDate: 'Abril 2019', jobDescription: 'Desarrollo de extensiones en .NET C#. Consultor técnico .NET. Desarrollo de procesos en PHP. Desarrollo web con Javascript, HTML5, CSS, JQuery.'}
       ],
       education: [
-        {degree: 'Tecnicatura Universitaria en Informática', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'Actualidad', description: 'Quienes se egresen de dicha carrera podrán desarrollar programas o componentes de programas informáticos, bajo la supervisión del líder del proyecto.'},
-        {degree: 'Licenciatura en Sistemas', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'Actualidad', description: 'Quienes se egresen de dicha carrera podran desarrollar sistemas de software o componentes de estos sistemas, participar en todas las etapas del ciclo de vida del desarrollo del programa, y ocupar roles de gestión en empresas y proyectos de software.'},
+        {degree: 'Tecnicatura Universitaria en Informática', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'En curso', description: 'Quienes se egresen de dicha carrera podrán desarrollar programas o componentes de programas informáticos, bajo la supervisión del líder del proyecto.'},
+        {degree: 'Licenciatura en Sistemas', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'En curso', description: 'Quienes se egresen de dicha carrera podran desarrollar sistemas de software o componentes de estos sistemas, participar en todas las etapas del ciclo de vida del desarrollo del programa, y ocupar roles de gestión en empresas y proyectos de software.'},
       ],
       skills: [
         {name: 'HTML'},
