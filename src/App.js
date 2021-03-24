@@ -11,24 +11,22 @@ class App extends Component {
       avatar: './assets/foto.jpeg',
       name: 'Carlos Urtubey',
       profession: 'BackEnd Developer',
-      bio: 'Programador políglota. Desarrollador de software a medida, entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕.',
+      bio: 'Programador políglota, aspirante a Project Manager. Entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕.',
       address: 'San Miguel, Buenos Aires, Argentina.',
       social: [
-        /* {name: 'facebook', url: 'https://facebook.com/oscarbarajastavares'},
-        {name: 'twitter', url: 'https://twitter.com/gndx'}, */
         {name: 'github', url: 'https://github.com/urtubeycarlos'},
         {name: 'linkedin', url: 'https://www.linkedin.com/in/carlos-urtubey/'}
       ],
       experience: [
-        {jobTitle: 'FrontEnd', company: 'CityDrive', startDate: 'Jan 2016', endDate: 'Present', jobDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
-        {jobTitle: 'Backend', company: 'DragonsDev', startDate: 'September 2014', endDate: 'Jan 2016', jobDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
+        {jobTitle: 'Desarrollador/Ayudante de profesor', company: 'Universidad Nacional de General Sarmiento', contact:"smontiel@ungs.edu.ar", startDate: 'Octubre 2015', endDate: 'Noviembre 2017', jobDescription: 'Desarrollador web en HTML5, CSS, Javascript, React y Node.js. Planificación de clases y actividades.'},
+        {jobTitle: 'Consultor CX', company: 'Oracle Argentina/Tecnosoftware', contact:"moviedo@tecnosoftware.com", startDate: 'Enero 2019', endDate: 'Abril 2019', jobDescription: 'Desarrollo de extensiones en .NET C#. Consultor técnico .NET. Desarrollo de procesos en PHP. Desarrollo web con Javascript, HTML5, CSS, JQuery.'}
       ],
       education: [
-        {degree: 'Maestria Atomica', institution: 'MIT', startDate: 'Jan 2016', endDate: 'Jan 2017', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
-        {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
+        {degree: 'Tecnicatura Universitaria en Informática', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'Actualidad', description: 'Quienes se egresen de dicha carrera podrán desarrollar programas o componentes de programas informáticos, bajo la supervisión del líder del proyecto.'},
+        {degree: 'Licenciatura en Sistemas', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'Actualidad', description: 'Quienes se egresen de dicha carrera podran desarrollar sistemas de software o componentes de estos sistemas, participar en todas las etapas del ciclo de vida del desarrollo del programa, y ocupar roles de gestión en empresas y proyectos de software.'},
       ],
       skills: [
-        {name: 'HTML5'},
+        {name: 'HTML'},
         {name: 'CSS'},
         {name: 'JavaScript'},
         {name: 'JQuery'},

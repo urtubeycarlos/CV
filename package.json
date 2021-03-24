@@ -1,5 +1,5 @@
 {
-  "name": "gresumereact",
+  "name": "CV_Carlos_Urtubey",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,31 +10,25 @@
   },
   "devDependencies": {
     "nib": "^1.1.2",
-    "react-scripts": "1.0.7",
-    "stylus": "^0.54.5"
+    "react-scripts": "1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "stylus": "stylus -u nib -c -w -o public/css/style.css src/index.styl"
+    "eject": "react-scripts eject"
   },
   "description": "Professional Resume CV Template in ReactJS",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gndx/gresume-react.git"
+    "url": "git+https://github.com/urtubeycarlos/CV.git"
   },
   "keywords": [
-    "Gresume",
     "react",
     "jsx"
   ],
-  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "author": "Carlos Urtubey <urtubeycarlos.0510@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gndx/gresume-react/issues"
-  },
   "homepage": "."
 }
