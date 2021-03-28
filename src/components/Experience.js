@@ -7,8 +7,12 @@ const Experience = (props) => {
         <div className='item' key={exp.jobTitle}>
           <h3>{exp.jobTitle} <span>[{exp.startDate} - {exp.endDate}]</span></h3>
           <span><strong>{exp.company}</strong></span>
-          <p>{exp.jobDescription}<br/><strong>Contacto: <a href={'mailto:' + exp.contact}>{exp.contact}</a></strong></p>
-          
+          <ul className='experiencie-item'>
+          {exp.tasks.map( (task) =>
+              <li key={task}>{task}</li>
+          )}
+          </ul>
+          <p><strong>Contacto: <a href={'mailto:' + exp.contact}>{exp.contact}</a></strong></p>
         </div>
       )}
     </div>

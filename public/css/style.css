@@ -48,7 +48,7 @@ header .wrapper .content-wrapper {
   font-size: 20px;
   margin: 0px 0px 30px 0px;
   font-weight: 300;
-  letter-spacing: 1.6px;
+  /* letter-spacing: 1.6px; */
 }
 .sidebar .bio .avatar img {
   width: 140px;
@@ -122,8 +122,11 @@ header .wrapper .content-wrapper {
 .content .title .item p {
   margin-top: 0px;
   width: 95%;
-  letter-spacing: 1.1px;
+  /* letter-spacing: 1.1px; */
   line-height: 25px;
+}
+.content .title .item .experiencie-item {
+  margin: 0.5em;
 }
 .content .title .w33 {
   margin: -1em 1em 1em 1em;

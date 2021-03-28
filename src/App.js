@@ -18,8 +18,8 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/carlos-urtubey/'}
       ],
       experience: [
-        {jobTitle: 'Desarrollador/Ayudante de profesor', company: 'Universidad Nacional de General Sarmiento', contact:"smontiel@ungs.edu.ar", startDate: 'Octubre 2015', endDate: 'Noviembre 2017', jobDescription: 'Desarrollador web en HTML5, CSS, Javascript, React y Node.js. Planificación de clases y actividades.'},
-        {jobTitle: 'Consultor CX', company: 'Oracle Argentina/Tecnosoftware', contact:"moviedo@tecnosoftware.com", startDate: 'Enero 2019', endDate: 'Abril 2019', jobDescription: 'Desarrollo de extensiones en .NET C#. Consultor técnico .NET. Desarrollo de procesos en PHP. Desarrollo web con Javascript, HTML5, CSS, JQuery.'}
+        {jobTitle: 'Desarrollador/Ayudante de profesor', company: 'Universidad Nacional de General Sarmiento', contact:"smontiel@ungs.edu.ar", startDate: 'Octubre 2015', endDate: 'Noviembre 2017', tasks: ['Desarrollador web en HTML5, CSS, Javascript, React y Node.js', 'Planificación de clases y actividades.']},
+        {jobTitle: 'Consultor CX', company: 'Oracle Argentina/Tecnosoftware', contact:"moviedo@tecnosoftware.com", startDate: 'Enero 2019', endDate: 'Abril 2019', tasks:['Desarrollo de extensiones en .NET C#.','Consultor técnico .NET.','Desarrollo de procesos en PHP.', 'Desarrollo web con Javascript, HTML5, CSS, JQuery.']}
       ],
       education: [
         {degree: 'Tecnicatura Universitaria en Informática', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'En curso', description: 'Quienes se egresen de dicha carrera podrán desarrollar programas o componentes de programas informáticos, bajo la supervisión del líder del proyecto.'},
