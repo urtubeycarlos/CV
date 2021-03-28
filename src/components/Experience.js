@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = (props) => {
   const myExperience = (
     <div>
-      {props.experience.map((exp) =>
+      {props.experience.map( (exp) =>
         <div className='item' key={exp.jobTitle}>
           <h3>{exp.jobTitle} <span>[{exp.startDate} - {exp.endDate}]</span></h3>
           <span><strong>{exp.company}</strong></span>

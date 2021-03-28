@@ -122,7 +122,7 @@ header .wrapper .content-wrapper {
 .content .title .item p {
   margin-top: 0px;
   width: 95%;
-  /* letter-spacing: 1.1px; */
+  letter-spacing: 0px;
   line-height: 25px;
 }
 .content .title .item .experiencie-item {
@@ -209,6 +209,7 @@ header .wrapper .content-wrapper {
   .content .title .item p {
     width: 100%;
     text-align: justify;
+    letter-spacing: 0px;
   }
   .content .title .skills {
     width: 100%;
