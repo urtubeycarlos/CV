@@ -32,7 +32,7 @@ header .wrapper .content-wrapper {
 }
 .sidebar .bio {
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 5%;
   width: 90%;
   display: block;
@@ -46,10 +46,15 @@ header .wrapper .content-wrapper {
 }
 .sidebar .bio .title h2 {
   font-size: 20px;
-  margin: 0px 0px 30px 0px;
+  margin: 0px;
   font-weight: 300;
   /* letter-spacing: 1.6px; */
 }
+
+.sidebar .bio .address p {
+  margin: 0.5em auto 2em auto
+}
+
 .sidebar .bio .avatar img {
   width: 140px;
   border-radius: 50%;
@@ -57,7 +62,7 @@ header .wrapper .content-wrapper {
 .sidebar .bio .desc {
   width: 85%;
   display: block;
-  margin: 0 auto;
+  margin: 1.5em auto auto auto;
 }
 .sidebar .bio .desc p {
   font-size: 15px;
@@ -124,6 +129,7 @@ header .wrapper .content-wrapper {
   width: 95%;
   letter-spacing: 0px;
   line-height: 25px;
+  /* margin: 0; */
 }
 .content .title .item .experiencie-item {
   margin: 0.5em;
@@ -218,4 +224,27 @@ header .wrapper .content-wrapper {
   .content .title .w33 {
     display: inline-block;
   }
+}
+
+.sidebar .bio .download {
+  margin-top: 3em;
+}
+.sidebar .bio .download a {
+  color: rgba(255,255,255,0.7);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.sidebar .bio .download a:hover,
+.sidebar .bio .download a:focus {
+  color: #fff;
+}
+.sidebar .bio .download i {
+  font-size: 28px;
+}
+.sidebar .bio .download p {
+  margin: 0.3em;
+  font-weight: bold;
 }

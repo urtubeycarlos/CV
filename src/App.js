@@ -13,6 +13,7 @@ class App extends Component {
       profession: 'Full-Stack Developer',
       bio: 'Programador políglota, aspirante a Project Manager. Entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕.',
       address: 'San Miguel, Buenos Aires, Argentina.',
+      email: 'urtubeycarlos.0510@gmail.com',
       social: [
         {name: 'github', url: 'https://github.com/urtubeycarlos'},
         {name: 'linkedin', url: 'https://www.linkedin.com/in/carlos-urtubey/'}
@@ -22,8 +23,8 @@ class App extends Component {
         {jobTitle: 'Consultor CX', company: 'Oracle Argentina/Tecnosoftware', contact:"moviedo@tecnosoftware.com", startDate: 'Enero 2019', endDate: 'Abril 2019', tasks:['Desarrollo de extensiones en .NET C#.','Consultor técnico .NET.','Desarrollo de procesos en PHP.', 'Desarrollo web con Javascript, HTML5, CSS, JQuery.']}
       ],
       education: [
-        {degree: 'Tecnicatura Universitaria en Informática', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'En curso', description: 'Quienes se egresen de dicha carrera podrán desarrollar programas o componentes de programas informáticos, bajo la supervisión del líder del proyecto.'},
-        {degree: 'Licenciatura en Sistemas', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'En curso', description: 'Quienes se egresen de dicha carrera podran desarrollar sistemas de software o componentes de estos sistemas, participar en todas las etapas del ciclo de vida del desarrollo del programa, y ocupar roles de gestión en empresas y proyectos de software.'},
+        {degree: 'Tecnicatura Universitaria en Informática', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'En curso', percentaje:'76.19%', average:'8.38', description: 'Quienes se egresen de dicha carrera podrán desarrollar programas o componentes de programas informáticos, bajo la supervisión del líder del proyecto.'},
+        {degree: 'Licenciatura en Sistemas', institution: 'Universidad Nacional de General Sarmiento', startDate: '2015', endDate: 'En curso', percentaje:'51.52%', average:'8.38', description: 'Quienes se egresen de dicha carrera podran desarrollar sistemas de software o componentes de estos sistemas, participar en todas las etapas del ciclo de vida del desarrollo del programa, y ocupar roles de gestión en empresas y proyectos de software.'},
       ],
       skills: [
         {name: 'HTML'},
@@ -52,7 +53,8 @@ class App extends Component {
               profession={person.profession}
               bio={person.bio}
               address={person.address}
-              social={person.social} />
+              social={person.social} 
+              email={person.email}/>
           </div>
 
           <div className='content-wrapper'>

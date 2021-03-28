@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Social from './Social';
+import Download from './Download'
 
-const About = ({avatar, name, profession, bio, address, social}) => {
+const About = ({avatar, name, profession, bio, address, social, email}) => {
   return(
     <div className='bio'>
       <div className='avatar'>
@@ -12,13 +13,14 @@ const About = ({avatar, name, profession, bio, address, social}) => {
         <h1>{name}</h1>
         <h2>{profession}</h2>
       </div>
+      {/* <div className='address'>
+        <p>{address}</p>
+      </div> */}
       <div className='desc'>
         <p>{bio}</p>
       </div>
-      <div className='address'>
-        <p>{address}</p>
-      </div>
-      <Social social={social} />
+      <Social social={social} email={email}/>
+      <Download />
     </div>
   );
 };
