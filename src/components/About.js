@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Social from './Social';
 import Download from './Download'
 
-const About = ({avatar, name, profession, bio, address, social, email}) => {
+function About ({avatar, name, profession, bio, address, social, email}) {
   return(
     <div className='bio'>
       <div className='avatar'>

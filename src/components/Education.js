@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Education = (props) => {
+function Education(props){
   const myEducation = (
     <div>
       {props.education.map((edu) =>

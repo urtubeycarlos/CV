@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Social = ({social, email}) => {
+function Social({social, email}) {
   const socialNetworks = (
     <ul>
       {social.map((socialNetwork) =>

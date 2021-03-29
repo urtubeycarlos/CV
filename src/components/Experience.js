@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Experience = (props) => {
+function Experience(props) {
   const myExperience = (
     <div>
       {props.experience.map( (exp) =>

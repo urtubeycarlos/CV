@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Skills = (props) => {
+function Skills(props) {
   const mySkills = (
     <div>
       {props.skills.map((skll) =>
