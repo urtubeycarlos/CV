@@ -32,6 +32,7 @@ class App extends Component {
         {name: 'JavaScript'},
         {name: 'JQuery'},
         {name: 'Node.js'},
+        {name: 'Express'},
         {name: 'React'},
         {name: 'Bootstrap'},
         {name: 'Typescript'},
@@ -40,6 +41,7 @@ class App extends Component {
         {name: 'C#'},
         {name: 'Python'},
         {name: 'Lua'},
+        {name: 'SQL'}
       ]
     };
 
